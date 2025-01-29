@@ -74,7 +74,7 @@ with col1:
 with col2:
     st.metric("Max Daily Rentals", daily_bike_rent_df["Total_Bike_Rent"].max())
 with col3:
-    st.metric("Average Daily Rentals", daily_bike_rent_df["Total_Bike_Rent"].mean())
+    st.metric("Average Hourly Rentals", round(hourly_bike_rent_df["Total_Bike_Rent"].mean(), 2))
 
 fig, ax = plt.subplots(figsize=(16,8))
 ax.plot(
@@ -99,7 +99,7 @@ with col4:
 with col5:
     st.metric("Max Hour;y Rentals", hourly_bike_rent_df["Total_Bike_Rent"].max())
 with col6:
-    st.metric("Average Hourly Rentals", hourly_bike_rent_df["Total_Bike_Rent"].mean())
+    st.metric("Average Hourly Rentals", round(hourly_bike_rent_df["Total_Bike_Rent"].mean(), 2))
 
 fig, ax = plt.subplots(figsize=(16, 8))
 ax.bar(
