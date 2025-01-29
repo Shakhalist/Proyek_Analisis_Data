@@ -10,4 +10,4 @@ pip install -r requirements.txt
 ## STREAMLIT
 Logo untuk di dashboard dapat diambil dari [Canva](https://www.canva.com/design/DAGdZFTZ-CA/y0Lp1zbn9pIrRK4TspHksA/edit), untuk run, anda bisa menggunakan perintah
 
-```streamlit run dashboard.py```
+```streamlit run dashboard\dashboard.py```
